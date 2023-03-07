@@ -201,10 +201,77 @@
 				<footer class="footer text-center py-4">
 					<small class="copyright">Designed with <i class="fas fa-heart"></i> by 3rdwavemedia for developers</small>
 				</footer>
-				
-			</div><!--//main-wrapper-->
-			
 
+				
+				<head>
+					<title>My Photo Album</title>
+					<style type="text/css">
+						/* 样式表中定义相册的样式 */
+						.container {
+							display: flex;
+							flex-wrap: wrap;
+							justify-content: flex-start;
+							align-items: flex-start; /* 垂直对齐方式为顶部对齐 */
+							margin-top: 50px;
+						}
+						.photo {
+							margin: 10px;
+							border: 2px solid #ccc;
+							box-shadow: 0px 0px 5px #ccc;
+							padding: 10px;
+							background-color: #fff;
+							width: 500px;
+							height: auto;
+							display: flex;
+							flex-direction: column;
+							justify-content: center;
+							align-items: center;
+						}
+						.photo img {
+							max-width: 100%;
+							max-height: 100%;
+							object-fit: contain;
+							margin-bottom: 10px;
+						}
+					</style>
+				</head>
+				
+				<body>
+					<h1 style="text-align: center">My Photo Album</h1>
+					<div class="container">
+						<div class="photo">
+							<img src="pictures/2021.08.21 Duanqiao Hangzhou.jpg" alt="Photo 1">
+							<p>2021.08.21 Duanqiao Hangzhou</p>
+						</div>
+						<div class="photo">
+							<img src="pictures/2021.10.02 Dawuding_1 Hangzhou.jpg" alt="Photo 3">
+							<p>2021.10.02 Dawuding_1 Hangzhou</p>
+						</div>
+						<div class="photo">
+							<img src="pictures/2021.09.21 Zijingang Hangzhou.jpg" alt="Photo 2">
+							<p>2021.09.21 Zijingang Hangzhou</p>
+						</div>
+						<div class="photo">
+							<img src="pictures/2021.10.02 Dawuding_2 Hangzhou.jpg" alt="Photo 3">
+							<p>2021.10.02 Dawuding_2 Hangzhou</p>
+						</div>
+						<div class="photo">
+							<img src="pictures/2021.11.05 Qianjiangxincheng Hangzhou.JPG" alt="Photo 3">
+							<p>2021.11.05 Qianjiangxincheng Hangzhou</p>
+						</div>
+						<div class="photo">
+							<img src="pictures/2021.11.20 Zijingang Hangzhou.jpg" alt="Photo 3">
+							<p>2021.11.20 Zijingang Hangzhou</p>
+						</div>
+						<!-- 添加更多的图片和描述 -->
+					</div>
+				</body>
+
+
+
+
+
+			</div><!--//main-wrapper-->
 </body>
 </html> 
 
